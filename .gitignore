@@ -1,0 +1,57 @@
+# Compiled object files, libraries, executables
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Build directories and generated files
+/build/
+/bin/
+/Debug/
+/Release/
+/out/
+
+# CMake and Make build artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# IDE files (VSCode, CLion, Eclipse, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.ncb
+*.sdf
+*.opensdf
+*.user
+*.ipch
+
+# CodeBlocks files
+*.cbp
+*.layout
+
+# Qt Creator files
+*.pro.user
+*.qmake.stash
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+*.DS_Store
+*.~
+
+# Generated documentation
+/docs/
+*.doxygen
